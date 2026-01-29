@@ -17,4 +17,6 @@ public class WelcomeController {
     public String managers(){
         return "Bem vindo ao meu Spring Boot, manager";
     }
+    @GetMapping("/testers")
+    public String testers() {return "Bem vindo ao meu Spring Boot, tester";}
 }
